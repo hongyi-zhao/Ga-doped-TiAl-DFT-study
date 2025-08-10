@@ -1,0 +1,22 @@
+# I/O
+ISTART = 0
+ICHARG = 2
+PREC = N
+LREAL = .FALSE.
+
+# Electronic Relaxation
+ENCUT = 520
+ALGO = N
+NELM = 500
+EDIFF = 1E-05
+
+# Ionic Relaxation
+IBRION =-1       #（表示原子位置不动，可理解为晶格常数不变）
+ISIF = 3 
+NSW = 0
+EDIFFG = -0.01
+
+
+# DOS related values
+ISMEAR = 1
+SIGMA = 0.1

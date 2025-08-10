@@ -1,0 +1,11 @@
+ +-------------------------- Summary ----------------------------+
+            Band Character:    Metallic
+             Band Gap (eV):   -0.5089
+    Eigenvalue of VBM (eV):    8.4687
+    Eigenvalue of CBM (eV):    7.9598
+         Fermi Energy (eV):    8.2649
+ Band Indexes of VBM & CBM:   60   61
+  Kpt Indexes of VBM & CBM:  128    8
+   Location of VBM (frac.):  0.315790  0.315790  0.500000
+   Location of CBM (frac.):  0.000000  0.184210  0.000000
+ +---------------------------------------------------------------+

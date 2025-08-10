@@ -1,0 +1,25 @@
+# I/O
+ISTART = 1
+ICHARG = 11
+PREC = N
+LREAL = .FALSE.
+
+# Electronic Relaxation
+ENCUT = 520
+ALGO = N
+NELM = 500
+EDIFF = 1E-06
+
+# Ionic Relaxation
+IBRION = -1
+ISIF = 3  
+NSW = 0
+EDIFFG = -0.01
+LAECHG=.T.
+SYMPREC=1E-6
+
+# DOS related values
+NEDOS=1000
+LORBIT=11
+ISMEAR = 1
+SIGMA = 0.1

@@ -1,0 +1,28 @@
+# I/O
+ISTART = 0
+ICHARG = 2
+PREC = N
+LREAL = .FALSE.
+VCA = 1 0.94 0.06
+LMAXMIX = 4
+
+# Electronic Relaxation
+ENCUT = 600
+ALGO = N
+NELM = 500
+EDIFF = 1E-06
+
+# Ionic Relaxation
+IBRION = 6      #（表示原子位置不动，可理解为晶格常数不变）
+ISIF = 3 
+NSW = 1
+EDIFFG = -0.001
+NFREE = 2
+POTIM = 0.015
+SYMPREC = 1E-6
+
+
+# DOS related values
+ISMEAR = 1
+SIGMA = 0.2
+
